@@ -8,12 +8,19 @@
       "title": "Home View",
       "addToNavigation": true,
       "icon": "home"
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "revista",
+      "components": [],
+      "title": "Revista",
+      "addToNavigation": true,
+      "icon": "home"
     }
   ],
   "dataProviders": [],
   "name": "kendoUiMobileApp",
-  "navigation": "tabstrip",
+  "navigation": "drawer",
   "view": "home",
-  "transition": "slide",
   "skin": "flat"
 }
